@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Educational Resource Platform</title>
+</head>
+<body>
+    <header>
+        <h1>Educational Resource Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#htpps://developer.mozilla.org">Resources</a></li>
+                <li><a href="#">ai power tools</a></li>
+                <li><a href="#discussion">Discussion Board</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="resources">
+            <h2>Available Resources</h2>
+            <div id="resource-list"></div>
+        </section>
+
+        <section id="discussion">
+            <h2>Discussion Board</h2>
+            <div id="discussion-board">
+                <textarea id="discussion-input" placeholder="Share your thoughts..."></textarea>
+                <button onclick="postDiscussion()">Post</button>
+                <div id="discussion-list"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Educational Resource Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

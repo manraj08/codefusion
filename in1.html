@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application for Tests and Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Test and Notes Application</h1>
+
+    <div id="test-section">
+        <h2>Take a Test</h2>
+        <form id="test-form">
+            <label for="test-answer">What is 2 + 2?</label>
+            <input type="number" id="test-answer" required>
+            <button type="submit">Submit Test</button>
+        </form>
+        <div id="test-results"></div>
+    </div>
+
+    <div id="notes-section">
+        <h2>Share Notes</h2>
+        <textarea id="note-input" placeholder="Write your notes here..."></textarea>
+        <button id="share-note">Share Note</button>
+        <div id="notes-list"></div>
+    </div>
+
+    <div id="doubt-session">
+        <h2>Doubt Session</h2>
+        <textarea id="doubt-input" placeholder="Ask your doubt here..."></textarea>
+        <button id="ask-doubt">Ask Doubt</button>
+        <div id="doubt-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
